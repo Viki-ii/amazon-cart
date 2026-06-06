@@ -1,0 +1,114 @@
+.navbar{
+   display: flex; 
+     height: 45px;
+      flex-direction: row;
+     justify-content: space-between;
+
+     border-style: solid;
+     
+    
+     border-color: black;
+     border-width: 1px;
+     border-radius: 5px;
+    background-color: rgb(150, 152, 244);
+     
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    padding: auto;
+}
+
+.left-section{
+    display: flex;
+    padding: 20px;
+    width: 700px;
+    
+}
+
+.search-bar{
+    height: 30px;
+    justify-content: center;
+}
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.right-section a {
+    margin-left: 10px;
+}
+
+
+.item-preview{
+    border-style: solid;
+    color: black;
+    border-width: .5px;
+    
+    
+}
+
+.body
+{
+    margin-left: 200px;
+    margin-right: 200px;
+     display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+.left-side{
+   position: fixed; 
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    
+    width:10%;
+    z-index: 200;
+    padding-top:5px ;
+    background-color: rgb(128, 155, 230);
+    padding-right: 20px;
+
+    border-style: solid;
+     
+    
+     border-color: black;
+     border-width: 1px;
+     border-radius: 5px;
+
+}
+
+.right-side{
+   position: fixed; 
+    right: 0;
+    bottom: 0;
+    top: 55px;
+    
+    width:-30%;
+    z-index: 200;
+    padding-top:5px ;
+    background-color: rgb(128, 155, 230);
+    padding-right: 100px;
+
+    border-style: solid;
+     
+    
+     border-color: black;
+     border-width: 1px;
+     border-radius: 5px;
+
+}
+
+
+.thumbnail{
+    width: 300px;
+    height: 300px
+}
